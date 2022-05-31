@@ -1,0 +1,201 @@
+
+/*Estilização e organização dos botões do cabeçalho
+Feito por Saymon Gabriel*/
+/* Criei um "root" para facilitar se necessario a troca de cores dos botões*/
+:root{
+    --cor-de-fundo : #69995D; 
+    --cor-fonte : #000000; 
+    --cor-preenchimento : #F4E04D;
+    --cor-borda : #000000; 
+}
+
+body{
+    margin: 0%;
+}
+
+/* Aqui começa a estilização*/
+.btn-home{
+    background-color: var(--cor-de-fundo);
+    color: var(--cor-fonte);
+    float: right;
+    padding: 25px 25px 25px 25px;
+    margin: 25px 30px 10px 30px;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: .15s;
+}
+.btn-home:hover{  
+    background-color: var(--cor-preenchimento);
+    border: 2px solid var(--cor-borda);
+    
+}
+.btn-valores{
+    background-color: var(--cor-de-fundo);
+    color: var(--cor-fonte);
+    float: right;
+    padding: 25px 25px 25px 25px;
+    margin: 25px 30px 10px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: .15s;
+    
+}
+
+.btn-valores:hover{
+    background-color: var(--cor-preenchimento);
+    border: 2px solid var(--cor-borda);
+}
+
+
+.btn-quemsomos{
+    background-color: var(--cor-de-fundo);
+    color: var(--cor-fonte);
+    float: right;
+    padding: 25px 25px 25px 25px;
+    margin: 25px 30px 10px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: .15s;
+}
+.btn-quemsomos:hover{
+    background-color: var(--cor-preenchimento);
+    border: 2px solid var(--cor-borda);
+}
+
+.btn-entrar{
+    background-color: var(--cor-de-fundo);
+    color: var(--cor-fonte);
+    float: right;
+    padding: 25px 25px 25px 25px;
+    margin: 25px 30px 10px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: .15s;
+}
+.btn-entrar:hover{
+    background-color: var(--cor-preenchimento);
+    border: 2px solid var(--cor-borda);
+}
+
+.btn-cadastro{
+    background-color: var(--cor-de-fundo);
+    color: var(--cor-fonte);
+    float: right;
+    padding: 25px 25px 25px 25px;
+    margin: 25px 30px 10px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: .15s;
+}
+.btn-cadastro:hover{
+    background-color: var(--cor-preenchimento);
+    border: 2px solid var(--cor-borda);
+}
+/* Botão para responder a pesquisa*/
+.btn-pesquisa{
+    background-color: var(--cor-preenchimento);
+    color: var(--cor-fonte);
+    float: right;
+    padding: 10px 10px 10px 10px;
+    margin: 35px 75px 10px 35px;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: .15s;
+}
+.btn-pesquisa:hover{
+    background-color: var(--cor-de-fundo);
+    border: 2px solid var(--cor-borda);
+}
+/* Aqui concluimos a estilização dos botões*/
+
+/*Cabeçalho da pagina inicial*/
+section#logo{
+    background-color:#17301C; 
+    display: flex;
+    justify-content: space-between;
+}
+
+section#banner{
+   margin: 50px 0px 0px 0px;
+}
+section#bem-vindo{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 35px;
+    color:#EEEFA8;
+}
+/* Caixas de texto*/
+section#Apresentação{
+    background-color: #EAE151;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    width: 65%;
+    border-radius: 15px;
+    padding: 10px 10px 30px 25px;
+    margin-top: 30px;
+    margin-left: 5px;
+    margin-bottom: 15px;
+
+}
+section#funcionamento{
+    background-color: #592941;
+    color: #EEEFA8;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    width: 65%;
+    border-radius: 15px;
+    padding: 10px 10px 30px 25px;
+    margin-left: 5px;
+    margin-bottom: 15px;
+}
+section#naosepreocupe{
+    background-color: #EAE151;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    width: 65%;
+    border-radius: 15px;
+    padding: 10px 10px 30px 25px;
+    margin-left: 5px;
+    margin-bottom: 15px;
+
+}
+
+/*pop-ups/Caixa de textos que ficam a direita*/
+aside{
+    width: 30%;
+    float: right;
+}
+section#crit{
+    background-color: #EAE151;
+    text-align: left;
+    padding: 15px 15px 50px 15px;
+    margin-top: 25px;
+    margin-right: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    border-radius: 15px;
+}
+section#pesquisa{
+    background-color: #592941;
+    color: #EEEFA8;
+    text-align: left;
+    padding: 10px 15px 75px 15px;
+    margin-top: 30px;
+    margin-right: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+/*Rodapé da pagina inicial*/
+
+article#rodape{
+    background-color: #000000;
+    color: azure;
+    display: flex;
+    text-align: center;
+  
+}

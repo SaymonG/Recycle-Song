@@ -1,0 +1,9 @@
+{
+    "name": "qi/recicle_song",
+    "autoload": {
+        "psr-4": {
+            "Qi\\RecicleSong\\": "src/"
+        }
+    },
+    "require": {}
+}
